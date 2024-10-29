@@ -6,8 +6,6 @@ class Test:
     def test12(self):
         print(12 * 15)
 
-    def test13(self):
-        print(12 * 19)
 
     @pytest.mark.usefixtures
     def test_fibon(self, print_text):
